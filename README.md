@@ -6,6 +6,8 @@
 
 React alternative to native html select element
 
+Demo: https://borovin.github.io/iq-select-demo/
+
 ## Install
 
 ```

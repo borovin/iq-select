@@ -1,0 +1,17 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+node_js:
+  - "6"
+sudo: false
+env:
+  - TEST_TYPE=coverage CACHE_NAME=JOB1
+  - TEST_TYPE=codestyle CACHE_NAME=JOB1
+script:
+  - npm run test:$TEST_TYPE -s
+after_script:
+  - |
+      if [ "$TEST_TYPE" == coverage ]; then
+        bash <(curl -s https://codecov.io/bash)
+      fi

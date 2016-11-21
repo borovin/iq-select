@@ -1,0 +1,77 @@
+exports[`test Should render component 1`] = `
+<div
+  className="IQSelect IQSelect_hasValue_false IQSelect_mobile_false IQSelect_focus_false IQSelect_openTo_bottom undefined">
+  <div
+    className="IQSelect__field">
+    <label
+      className="IQSelect__label">
+      Test label
+    </label>
+    <div
+      className="IQSelect__value" />
+    <input
+      className="IQSelect__input"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyUp={[Function]}
+      type="text" />
+    <select
+      className="IQSelect__nativeSelect"
+      name="default name"
+      onChange={[Function]}
+      value="__default">
+      <option
+        disabled={true}
+        hidden={true}
+        value="__default">
+        Test label
+      </option>
+      <option
+        value="c">
+        x
+      </option>
+      <option
+        value="b">
+        y
+      </option>
+      <option
+        value="a">
+        z
+      </option>
+    </select>
+  </div>
+  <div
+    className="IQSelect__dropdown">
+    <div
+      className="IQSelect__option"
+      data-value="c"
+      onMouseDown={[Function]}>
+      <span
+        className="IQSelect__optionHighlight">
+        
+      </span>
+      x
+    </div>
+    <div
+      className="IQSelect__option"
+      data-value="b"
+      onMouseDown={[Function]}>
+      <span
+        className="IQSelect__optionHighlight">
+        
+      </span>
+      y
+    </div>
+    <div
+      className="IQSelect__option"
+      data-value="a"
+      onMouseDown={[Function]}>
+      <span
+        className="IQSelect__optionHighlight">
+        
+      </span>
+      z
+    </div>
+  </div>
+</div>
+`;

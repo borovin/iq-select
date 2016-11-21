@@ -1,5 +1,9 @@
 # IQ Select
 
+[![Build Status](https://travis-ci.org/borovin/iq-select.svg?branch=master)](https://travis-ci.org/borovin/iq-select)
+[![codecov](https://codecov.io/gh/borovin/iq-select/branch/master/graph/badge.svg)](https://codecov.io/gh/borovin/iq-select)
+[![bitHound Overall Score](https://www.bithound.io/github/borovin/iq-select/badges/score.svg)](https://www.bithound.io/github/borovin/iq-select)
+
 React alternative to native html select element
 
 ## Install

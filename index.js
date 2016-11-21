@@ -6,7 +6,7 @@ import toPairs from 'lodash/toPairs';
 import fromPairs from 'lodash/fromPairs';
 import sortBy from 'lodash/sortBy';
 import isEmpty from 'lodash/isEmpty';
-import Option from './option';
+import Option from './option.js';
 import './styles.styl';
 
 function optionClickHandler(value) {

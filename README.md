@@ -26,6 +26,8 @@ const options = {
 const select = <IQSelect name="lang" value="RU" label="Choose language" options={options} />
 ```
 
+This module uses es6/jsx/stylus features in source files. You need to configure your module bundler to work with them.
+
 ### Properties
 
 `name` Select name

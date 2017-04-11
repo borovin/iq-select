@@ -29,7 +29,7 @@
     "eslint-plugin-react": "^6.7.1",
     "jest": "^17.0.3",
     "react-addons-test-utils": "^15.4.0",
-    "react-dom": "^15.4.0",
+    "react-dom": "^15.5.4",
     "react-test-renderer": "^15.4.0"
   },
   "jest": {
